@@ -1,0 +1,97 @@
+# PLAYING GUIDE - VERSION 1.0.0
+
+This is your handbook for how to play the SSA Wii Archipelago Randomiser
+
+1) What is this?
+
+A Randomiser is a gamemode that randomly shuffles thee locations of various items using a series of rules, called "logic", to ensure it is a possible puzzle for you to solve
+Archipelago is a Cross-Game Multiworld Randomiser that shuffles the items of multiple ganes into one giant item pool to create a massive multi-game randomiser, although you can just play one gamee if you wish
+
+This Spyro's Adventure Archipelago Randomiser is a "Manual" archipelago. This means you play the game according to the items you have recieved and tell the Archipelago when you reach a check.
+All this is based on  your honour
+
+For this, an "Item" is something you have recieved. In the Manual Client (which is open and connected to the archipelago game, as per Installation Guide) these appear on the Left Side
+A "Check" is a location you reach in game and is randomised. The list of checks is listed in part 2, and the reemaining checks to find can be found on the Right Side of the Manual Client
+
+
+2) Check and Item List
+
+For this Randomiser,
+
+All Items:
+-Entry to each Chapter
+-Allowance to use Skylanders, represented by that Skylander's Soul Gem
+-All Keys. For Levels with No Keys, one Trap Item is added for them 
+-Rewards for completing a level, divided into Elemental Sources, Core [Components], And Non-Use items
+-All Legendary Treasurees (these currently do nothing but functionality may come later)
+-Magic Items NOT INCLUDING ADVENTURE PACKS
+-Varying amounts of Gold as Filler Items
+
+All Checks:
+-All 3rd-Star Collectables (Soul Gems, Legendary Treasures, Hats, Treasure Chests, and Story Scrolls)
+-Completing each Chapter
+-Picking up a Key
+-A starting Level and Skylander
+
+
+3) Using the Manual Client
+
+In order to track what items you currently have and send locations as collected:
+-Opem the manual client and use the log to collect to the server. Come back to this anytime
+-At the top, select the tab labeled "Manual" which will bring up a list of currently obtained items (Left) and a list of checks (right)
+-On the left, unroll the categories "Core, Elemental Sources, Keys, Levels, and Skylanders. Click and Drag to scroll if needed
+-On the right, unroll Unchecked. Each check is listeed in Alphabetical Order. Hover over the list and use scroll wheeel DO NOT CLICK DRAG TO SCROLL
+
+When you reach a check:
+-Scroll to that check, or use the searchbar.
+-Click on the box with that check name. This will send the server thee instruction to give out the item  located at this check
+-This list is alphabetical. All checks are prefixed with an abbreviation of their chapter. 
+-The Two Starting Checks are at the bottom, along with "Defeat Kaos" wwhich should be checked when you achieeve victory (as below)
+# Abbreviations, in order of chapter number: SI, PP, SSD, SS, OSI, DWC, LL, CEC, ST, TT, FF, TWH, GF, BF, CrCa, CaCr, CrCi, MM, LLR, QSV, AA, LOK, EOI, PS, DLC, DP
+
+4) Randomiser Rules / Victory
+
+It is up to you if you wish to use reset or pre-prepared skylanders
+
+Before starting, mark "STARTING SKYLANDER" and "STARTING LEVEL" as collected
+- You may ONLY enter collected levels and use Skylanders who's soul gems have been colleccted. This will ensure you always have something to do at the start
+
+Victory is achieved by rebuilding the core of light and then defeating. This requires:
+- Collected item for Lair Of Kaos
+- Ability to reach the end of the level. This is a check, but DO NOT ENTER KAOS WITHOUT:
+- All 8 Eternal Sources. These are always at their vanilla locations, so complete CHAPTERS 4, 7, 9, 11, 14, 17, 19, and 21
+- 5 of the 7 remaining parts of the Core of Light, under "Core" Category. These are randomised into the main item pool for your archipelago, so could be in other people's games
+  Once the core is rebuilt, you may go back and fight  Kaos in his lair. Defeating Kaos here is a seperate check and will immediateely trigger a goal complete
+  By default, this will release all uncollected items to other players, if your host has set this to reequire manual release you must return to the log and type !release
+
+5) Logic Rules
+
+Logic is a series of rules that define the requirments to reach a check. Logic is designed to ensure a seed is always completable. Please remember this is 1.0.0 and so some bugs in logic may exist
+
+Current Logic Rules:
+
+- 2 Player Glitches, including warps or Cadaverous Skip, are NOT expected
+- Soul Gem Abilities, such as swimming with Stump Smash and Double Trouble, are NOT expected
+- All Elemental Gates assume access to at least one Skylander of that Element
+- All Kaos Fights assume acceess to at least 3 Skylanders for difficulty balancing if playing with reset skylanders (future versions will let you turn this off)
+- Checks across water assume access to Water, Air, or Flying Skylanders.  This includes flying between islands to skip the key in Leviathan Lagoon
+- Legendary Treasure in Leviathan Lagoon assumes ONLY Water Skylanders, not flight as of now
+- Arkeyan Armory expects access to Legendary Treasure and Air Gate before the Arkeyan Robot Autoscroller to avoid potentially backtracking twice
+- Warnado is expected for the following:
+  - Skipping Key Gate 3 in Perilous Pastures
+  - Skipping Key Gate 1 and using the bouncepad by East Gate Chest to reach the wooden walkway and skip to the end of the level in Darkwater Cover
+  - Skipping the Triple Locked Gate in Stonetown
+  - Skipping all Key Gates in Crawling Catacombs
+  - Skipping all Key Gates in Lair of Kaos
+  - Skipping Key Gate in Empire of Ice 
+-Ghost Roaster is expected for the following:
+  - Skipping the first Key Gate in Sky Schooner Docks
+  - Skipping all Key Gates in Battlefield (except to accesss "SoulGem Drobot" check, which requires Two Keys and GR instead of the usual 3)
+- Using 1 Key and Bash to skip to the end of Dark Water Cove (similar to Warnado Requirment)
+- Using Prism Break to break Purple Tzo Crystals. In Molekin Mine this skips a key requirment to access bombs for three checks
+- Using Drill Sargeant to reach the Legendary Treasure in Arkeyan Armory instead of an Earth Skylander
+- Keys assume level resets, this means you always start a level with the number of keys you have been sent and could threfore use 1 key for multiple gates (for example, in Troll Warehouse Life Gate if you have 1 Key Obtained this can allow that 1 key to unlock both gates at the start, but you can only open one per level reset and cannot open any gates behind the starting gates)
+
+Other glitches can be used to speed your seed up but arent required to acceess checks
+
+IMPORTANT NOTICE: LOGIC CURRENTLY DOES NOT ACCOUNT FOR SPEED, WHICH COULD RENDER A SMALL NUMBER OF SEEDS IMPOSSIBLE IF A SKYLANDER IS TOO SLOW FOR A REQUIRED TIMED SECTION OR BOMB CARRY
